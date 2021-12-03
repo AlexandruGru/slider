@@ -38,25 +38,11 @@ const changeContent = (type) => {
         if (type === elem.name) {
             creationContent(elem);
         }
-    })    
-    console.log(type)
+    })
 }
 
 const creationContent = (param) => {
     mainImg.setAttribute('src', param.image);
-    // mainImg.classList.toggle('animate__animated', 'animate__backInRight')
-    // mainImg.classList.add('animate__animated', 'animate__backInRight')
-
-    // mainImg.animate([
-    //     {transform: 'translateY(0px)'}
-    //     {transform: 'translateY(-10px)'
-    // ], {
-    //     duration: 100,
-    //     iterations: 1
-    // })
-
-    // mainImg.style.animation = "meve 1s ease 1";
-
     firstLine.textContent = `${param.line1}`;
     secondLine.textContent = `${param.line2}`;
     thirdLine.textContent = `${param.line3}`;
