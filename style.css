@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     transition: all .4s linear;
     border-radius: 2px;
+    box-shadow: 3px 2px 5px black;
 }
 .card-container {
     position: relative;
@@ -90,6 +91,7 @@ body {
 .optionalImg {
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 .optionalImgActive {
     width: 40px;
